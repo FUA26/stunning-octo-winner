@@ -72,7 +72,7 @@ export default auth((req: NextRequest) => {
                     req.url
                 )
             );
-            console.log("App")
+            // console.log("App")
         } else if (customSubDomain === "cockpit") {
             // Pengalihan ke /cockpit tanpa pengecekan login
             console.log("Cockpit")
